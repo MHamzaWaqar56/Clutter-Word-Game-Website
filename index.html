@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Clutter Words Game</title>
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="asset/js/words.js" defer></script>
+    <script src="asset/js/script.js" defer></script>
+  </head>
+  <body>
+
+
+
+    <header>
+
+      <div class="section">
+
+        <div class="logo">
+          <img src="asset/images/logo.webp" alt="logo">
+        </div>
+
+        <div class="name">
+          <h1>M Hamza Waqar</h1>
+        </div>
+
+        <div class="icons">
+          <a href="https://www.tiktok.com/@muhammadhamzaa01?_t=8UZz9rJcS5y&_r=1" aria-hidden="true"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="https://www.facebook.com/hamza.waqar.7399" aria-hidden="true"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/hamzarajpoot3912/" aria-hidden="true"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+
+
+      </div>
+
+    </header>
+
+
+
+
+
+    <div class="scram">
+
+      <div class="container">
+
+        <h2>Clutter Words Game</h2>
+        <center><div class="startArea" onclick="start()"><button class="startBtn">Start the Game</button></div></center>
+
+        <div class="content">
+            <p class="word"></p>
+            <div class="details">
+                <p class="hint">Hint: <span></span></p>
+                <p class="time">Time Left: <span><b>30</b>s</span></p>
+            </div>
+            <input type="text" spellcheck="false" placeholder="Enter a valid word">
+            <div class="buttons">
+                <button class="refresh-word">Refresh Word</button>
+                <button class="check-word">Check Word</button>
+            </div>
+            <div class="score-area"><span>Score: </span><span class="score">0</span></div>
+        </div>
+    </div>
+
+    </div>
+
+    
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p id="modalText"></p>
+    </div></div>
+
+    
+  </body>
+</html>
